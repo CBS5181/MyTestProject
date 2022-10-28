@@ -25,7 +25,9 @@ int test()
 
 int main()
 {
-    printf("Hey, Little Peter!");
+    printf("Hey, Little Peter!\n");
+    printf("Begin Test!\n");
     test();
+    printf("End Test!\n");
     return 0;
 }
