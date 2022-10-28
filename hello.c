@@ -20,7 +20,8 @@ int test()
 {
     assert(multiply(2, 2) == 4);
     assert(multiply(-3, 2) == 6);
-
+    assert(add(3, 3) == 6);
+    assert(add(-1, 5) == 3);
 }
 
 int main()
